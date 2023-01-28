@@ -1,0 +1,56 @@
+﻿  Source.cpp
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\dot.h(3,1): error C2011: dot: переопределение типа "struct"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\dot.h(2): message : см. объявление "dot"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\function.h(10,5): error C2011: myFunc::function: переопределение типа "class"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\function.h(9): message : см. объявление "myFunc::function"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\graph.h(15,18): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\graph.h(28,42): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\graph.h(28,34): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\graph.h(46,46): error C2027: использование неопределенного типа "myFunc::function"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\function.h(9): message : см. объявление "myFunc::function"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\graph.h(46,1): error C3861: getF: идентификатор не найден
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\data.h(7,2): error C2011: myFunc::data: переопределение типа "class"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\data.h(6): message : см. объявление "myFunc::data"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(13,42): error C2027: использование неопределенного типа "myFunc::data"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\data.h(6): message : см. объявление "myFunc::data"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(32,1): error C2027: использование неопределенного типа "myFunc::data"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\data.h(6): message : см. объявление "myFunc::data"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(33,1): error C2665: myFunc::graph::graph: ни одна из 3 перегрузок не может преобразовать все типы аргументов
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\graph.h(54,2): message : может быть "myFunc::graph::graph(myFunc::graph &&)"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\graph.h(54,2): message : или       "myFunc::graph::graph(const myFunc::graph &)"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\graph.h(18,3): message : или       "myFunc::graph::graph(myFunc::data)"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(33,22): message : "myFunc::graph::graph(myFunc::data)": невозможно преобразовать аргумент 1 из "myFunc::data" в "myFunc::data"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(33,1): message : использование неопределенного типа "myFunc::data"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\data.h(6,8): message : см. объявление "myFunc::data"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\graph.h(18,3): message : см. объявление "myFunc::graph::graph"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(33,1): message : при попытке сопоставить список аргументов "(myFunc::data)"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(63,9): error C2079: "maxY" использует не имеющую определения структуру struct "dot"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(63,26): error C2027: использование неопределенного типа "myFunc::function"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\function.h(9): message : см. объявление "myFunc::function"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(63,1): error C2027: использование неопределенного типа "myFunc::data"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\data.h(6): message : см. объявление "myFunc::data"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(63,1): error C3861: getMax: идентификатор не найден
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(76,9): error C2079: "minY" использует не имеющую определения структуру struct "dot"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(76,26): error C2027: использование неопределенного типа "myFunc::function"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\function.h(9): message : см. объявление "myFunc::function"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(76,1): error C2027: использование неопределенного типа "myFunc::data"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\data.h(6): message : см. объявление "myFunc::data"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(76,1): error C3861: getMin: идентификатор не найден
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(84,55): error C2027: использование неопределенного типа "myFunc::function"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\function.h(9): message : см. объявление "myFunc::function"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(84,1): error C2027: использование неопределенного типа "myFunc::data"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\data.h(6): message : см. объявление "myFunc::data"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(84,1): error C3861: getF: идентификатор не найден
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(96,31): error C2027: использование неопределенного типа "myFunc::function"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\function.h(9): message : см. объявление "myFunc::function"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(96,1): error C2027: использование неопределенного типа "myFunc::data"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\data.h(6): message : см. объявление "myFunc::data"
+C:\Users\Алиса\Desktop\papochka\Graphs\Graphs\comands.h(96,1): error C3861: getSquare: идентификатор не найден
